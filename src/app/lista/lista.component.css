@@ -1,0 +1,18 @@
+lista{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista li {
+    list-style-type: none;
+    background-color: #b6e0b1;
+    margin-bottom: 10px; 
+    padding: 10px; 
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .lista li:hover {
+    background-color: #33b96b;
+  }

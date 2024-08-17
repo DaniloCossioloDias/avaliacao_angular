@@ -1,13 +1,15 @@
-<form (ngSubmit)="adicionarCliente()">
-    <label for="nome">Nome:</label>
+<form class="formulario" (ngSubmit)="adicionarCliente()">
+    <label for="nome">Nome:</label> <br>
     <input id="nome" [(ngModel)]="nome" name="nome" required>
-  
-    <label for="cpf">CPF:</label>
+    <br>
+    
+    <label for="cpf">CPF:</label> <br>
     <input id="cpf" [(ngModel)]="cpf" name="cpf" required>
-  
-    <label for="dataNascimento">Data de Nascimento:</label>
+    <br>
+
+    <label for="dataNascimento">Data de Nascimento:</label> <br>
     <input type="date"  id="dataNascimento" [(ngModel)]="dataNascimento" name="dataNascimento" required>
-  
+    <br>
+    
     <button type="submit">Adicionar Cliente</button>
-  </form>
-  
+</form>
